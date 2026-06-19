@@ -1,0 +1,89 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg-custom",
+      "description": "Professional modern physiotherapy clinic background",
+      "imageUrl": "https://picsum.photos/seed/physio-clinic-bg/1920/1080",
+      "imageHint": "modern medical clinic"
+    },
+    {
+      "id": "hero-exercise",
+      "description": "Modern physiotherapy exercise session with vertical orientation, Pinterest aesthetic",
+      "imageUrl": "https://picsum.photos/seed/physio-exercise-pinterest/1200/1500",
+      "imageHint": "physiotherapy exercise"
+    },
+    {
+      "id": "hero-physio",
+      "description": "Modern physiotherapy session with professional equipment and therapist guidance",
+      "imageUrl": "https://picsum.photos/seed/physio-aesthetic-1/1200/1500",
+      "imageHint": "clinical physiotherapy"
+    },
+    {
+      "id": "hero-exo-robot",
+      "description": "Dr. Manash Kalita in a white lab coat and blue shoe covers leaning against the Exo-Robot rehabilitation system at his clinic",
+      "imageUrl": "https://picsum.photos/seed/manash-exo-robot-official/1200/1600",
+      "imageHint": "exo-robot physiotherapy"
+    },
+    {
+      "id": "about-manual-therapy",
+      "description": "Professional manual therapy session by Dr. Manash Kalita",
+      "imageUrl": "https://picsum.photos/seed/manual-therapy-a9pFSC8dTlo/1200/800",
+      "imageHint": "manual therapy"
+    },
+    {
+      "id": "service-assessment",
+      "description": "Comprehensive biomechanical physiotherapy assessment",
+      "imageUrl": "https://picsum.photos/seed/assess/600/400",
+      "imageHint": "medical assessment"
+    },
+    {
+      "id": "service-taping",
+      "description": "Professional Kinesiology Taping for muscle support",
+      "imageUrl": "https://picsum.photos/seed/tape/600/400",
+      "imageHint": "kinesiology taping"
+    },
+    {
+      "id": "service-needling",
+      "description": "Dry Needling therapy for trigger point release",
+      "imageUrl": "https://picsum.photos/seed/needling-serv/600/400",
+      "imageHint": "dry needling"
+    },
+    {
+      "id": "service-sports",
+      "description": "Sports rehabilitation and return-to-play training",
+      "imageUrl": "https://picsum.photos/seed/sports-rehab/600/400",
+      "imageHint": "sports rehab"
+    },
+    {
+      "id": "service-pain",
+      "description": "Modern pain management clinical session",
+      "imageUrl": "https://picsum.photos/seed/pain-serv/600/400",
+      "imageHint": "pain relief"
+    },
+    {
+      "id": "service-mobility",
+      "description": "Mobility restoration and functional movement training",
+      "imageUrl": "https://picsum.photos/seed/mobility-serv/600/400",
+      "imageHint": "mobility movement"
+    },
+    {
+      "id": "recovery-1",
+      "description": "Meditative manual therapy session for shoulder and deep relaxation",
+      "imageUrl": "https://picsum.photos/seed/meditation-therapy/1000/600",
+      "imageHint": "meditation wellness"
+    },
+    {
+      "id": "recovery-2",
+      "description": "Calm medical physiotherapy focusing on mental and physical wellness",
+      "imageUrl": "https://picsum.photos/seed/calm-physio/1000/600",
+      "imageHint": "calm meditation"
+    },
+    {
+      "id": "recovery-3",
+      "description": "Advanced wellness and soft tissue recovery with meditative focus",
+      "imageUrl": "https://picsum.photos/seed/wellness-rehab/1000/600",
+      "imageHint": "meditation yoga"
+    }
+  ]
+}

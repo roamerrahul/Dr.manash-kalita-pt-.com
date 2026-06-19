@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Professional Blue Healthcare Palette */
+    --background: 189 80% 95%; /* Lighter clinical blue */
+    --foreground: 239 94% 19%;  /* #03045E - Dark Navy Blue */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 239 94% 19%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 239 94% 19%;
+    
+    --primary: 239 94% 19%;    /* #03045E */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 200 100% 36%;  /* #0077B6 - Cerulean Blue */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 190 73% 85%;      /* #B0E9F5 - Lighter blue for backgrounds */
+    --muted-foreground: 239 94% 30%;
+    
+    --accent: 190 100% 42%;     /* #00B4D8 - Sky Blue */
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 239 94% 19% / 0.15;
+    --input: 239 94% 19% / 0.1;
+    --ring: 190 100% 42%;
+    
+    --radius: 1.25rem;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased font-body selection:bg-accent/30;
+    background-image: 
+      radial-gradient(circle at 0% 0%, hsla(var(--muted), 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, hsla(var(--accent), 0.15) 0%, transparent 50%);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold tracking-tight text-primary;
+  }
+}
+
+.premium-gradient {
+  background: linear-gradient(135deg, #03045E 0%, #0077B6 50%, #00B4D8 100%);
+}
+
+.medical-card {
+  @apply bg-white/90 backdrop-blur-md border border-white/40 shadow-xl transition-all duration-300;
+  box-shadow: 0 10px 40px -6px rgba(3, 4, 94, 0.1);
+}
+
+.section-spacing {
+  @apply py-24 md:py-32;
+}
+
+.glow-border {
+  @apply border-2 border-accent/20 hover:border-accent hover:shadow-[0_0_20px_rgba(0,180,216,0.3)] transition-all duration-300;
+}
+
+/* Custom scrollbar for smoother visual experience */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted/20;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full border-4 border-transparent bg-clip-content hover:bg-primary/40 transition-colors;
+}

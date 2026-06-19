@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-physio",
+      "description": "Professional physiotherapist Dr Manash Kalita session",
+      "imageUrl": "https://picsum.photos/seed/physio-pro/1200/1500",
+      "imageHint": "doctor treating patient"
+    },
+    {
+      "id": "hero-exercise",
+      "description": "Guided physiotherapy exercise session",
+      "imageUrl": "https://picsum.photos/seed/physio-exercise-aesthetic/1200/1500",
+      "imageHint": "physiotherapy exercise"
+    },
+    {
+      "id": "about-physio",
+      "description": "Professional physiotherapist Dr Manash Kalita portrait in medical setting",
+      "imageUrl": "https://picsum.photos/seed/physio-portrait/800/1000",
+      "imageHint": "medical professional"
+    },
+    {
+      "id": "hero-exo-robot",
+      "description": "Dr Manash Kalita with advanced Exo-Robot rehabilitation technology",
+      "imageUrl": "https://picsum.photos/seed/exo-robot/1200/1500",
+      "imageHint": "robotic physiotherapy"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Advanced physiotherapy session",
+      "imageUrl": "https://picsum.photos/seed/rehab-1/600/400",
+      "imageHint": "rehabilitation clinic"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Modern therapy equipment",
+      "imageUrl": "https://picsum.photos/seed/clinic-1/600/400",
+      "imageHint": "medical equipment"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Taping procedure for athletes",
+      "imageUrl": "https://picsum.photos/seed/tape-1/600/400",
+      "imageHint": "sports therapy"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Dr Manash Kalita providing home-based recovery treatment",
+      "imageUrl": "https://picsum.photos/seed/patient-recovery-home/600/400",
+      "imageHint": "home physiotherapy"
+    }
+  ]
+}
